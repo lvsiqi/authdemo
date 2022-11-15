@@ -1,0 +1,11 @@
+server:
+  port: 8080
+justauth:
+  enabled: true
+  type:
+      GITEE:
+        client-id: 2d70397b3a78f30de6e522b6ffa7b9ebe7da0bc7b9e2f26d3b10a609f3c93a4e
+        client-secret: 85f51bb7eae26bb22ddf34d8662211da435d5d340fa61597fb4807e1ac2900f9
+        redirect-uri: http://127.0.0.1:8080/oauth/gitee/callback
+  cache:
+      type: default
